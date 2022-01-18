@@ -1,0 +1,25 @@
+{
+    "name": "karen/flexity-podcast",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Karen Stepanyan",
+            "email": "kstepanyan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./includes",
+            "Config\\": "./config",
+            "Templates\\": "./templates"
+        }
+    },
+    "require": {
+        "mailgun/mailgun-php": "^3.5",
+        "symfony/http-client": "^5.3",
+        "nyholm/psr7": "^1.4",
+        "phpmailer/phpmailer": "^6.5",
+        "jwilsson/spotify-web-api-php": "^5.0"
+    }
+}

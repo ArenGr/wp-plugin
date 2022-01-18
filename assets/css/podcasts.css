@@ -1,0 +1,280 @@
+
+body {
+    font-family: Open Sans !important;
+    font-style: normal !important;
+}
+a {
+    text-decoration: none!important;
+}
+
+ul{
+    margin-left: 0px !important;
+    margin-rigth: 0px !important;
+    margin-bottom: 0 !important;
+    list-style: none !important;
+}
+li{
+    margin-top: 0px !important;
+}
+hr{
+    margin: 0 !important;
+}
+
+
+
+.fx-podcast-header-main{
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: #F4F5FB;
+}
+
+/*Podcast slide item image*/
+.fx-latest-podcasts-slide-item a .fx-podcast-slide-item-img img {
+    border-radius: 6px;
+    width:800px;
+    height:400px;
+}
+
+.fx-podcast-slide-item-img {
+    width: 800px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+/*Podcast slide item title*/
+.fx-podcast-slide-item-title {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #162648;
+}
+
+/*Podcast slide item author*/
+.fx-podcast-slide-item-author {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(22, 38, 72, 0.7);
+    margin-top: 8px;
+}
+
+/*Podcast slide dots*/
+.fx-podcast-header-main .owl-dots {
+    text-align: center;
+    padding-bottom: 36px;
+}
+.fx-podcast-header-main .owl-dot {
+    display: inline-block;
+    zoom: 1;
+}
+.fx-podcast-header-main .owl-dot span {
+    width: 8px;
+    height: 8px;
+    display: block;
+    backface-visibility: visible;
+    margin: 5px 7px;
+    background: rgba(22, 38, 72, 0.15);
+    border-radius: 10px;
+    transition: opacity 0.2s ease;
+}
+.fx-podcast-header-main .owl-dot.active span,
+.fx-podcast-header-main .owl-dot:hover span {
+    background: #316BFF;
+    border-radius: 10px;
+}
+
+/*Latest podcasts block*/
+.fx-latest-podcasts-wrapper {
+    background: #ffffff;
+}
+.fx-latest-podcasts-heading {
+    border-bottom: 1px solid rgba(22, 38, 72, 0.1);
+    margin-left: 75px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.fx-latest-podcasts-heading-text-blocks{
+    margin-bottom: 22px;
+}
+
+.fx-latest-podcasts-heading-title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    color: #162648;
+    margin-top: 24px
+}
+
+.fx-latest-podcasts-heading-sort {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(22, 38, 72, 0.7);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 32px;
+}
+/*Podcast body*/
+.fx-latest-podcasts-body{
+    margin-top: 32px;
+}
+.fx-latest-podcast-body-card{
+    padding-bottom: 32px;
+}
+
+.fx-latest-podcast-body-card-img-wrapper {
+    max-width: 152px;
+}
+.fx-latest-podcast-body-card-info-wrapper{
+    margin-top:2px
+}
+
+.fx-latest-podcast-body-card-img img{
+    background: #C4C4C4;
+    border-radius: 6px;
+}
+
+.fx-latest-podcast-body-card-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #162648;
+    margin-top:12px;
+}
+.fx-latest-podcast-body-card-description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(22, 38, 72, 0.7);
+    margin-bottom: 12px;
+}
+
+.fx-latest-podcast-body-card-meta {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #162648;
+}
+
+.fx-latest-podcast-body-card-actions.fx-latest-podcast-body-card-actions-share {
+    background-color: rgba(22, 38, 72, 0.05);
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.fx-latest-podcast-body-card-actions-pause-icon,
+.fx-latest-podcast-body-card-actions-play-icon,
+.fx-latest-podcast-body-card-actions-share-icon {
+    width: 40px;
+    height: 40px;
+    background: rgba(22, 38, 72, 0.05);
+    cursor: pointer;
+    transition: 100ms;
+}
+.fx-latest-podcast-body-card-actions-pause-icon:hover,
+.fx-latest-podcast-body-card-actions-play-icon:hover,
+.fx-latest-podcast-body-card-actions-share-icon:hover {
+    background: rgba(22, 38, 72, 0.15);
+}
+.fx-latest-podcast-body-card-content-row {
+    justify-content: center !important;
+}
+
+.fx-latest-podcast-body-card-actions-play-icon:active,
+.fx-latest-podcast-body-card-actions-share-icon:active {
+    background: rgba(22, 38, 72, 0.2);
+}
+.fx-latest-podcast-body-card-actions-pause-icon {
+    display: none !important;
+}
+.fx-latest-podcast-body-card-actions-share-icon {
+    margin-left: 12px;
+}
+.fx-latest-podcast-body-card-content-player {
+    background: #EBECF2;
+    width: 100%;
+    height: 56px;
+    border-radius: 6px;
+    display: none;
+}
+
+/*Podcast player*/
+.player-range-wrapper {
+    margin-left: -40px;
+}
+
+.player-range-start-time,
+.player-range-end-time {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #162648;
+}
+
+.podcast-player-trace {
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    border: 2px solid #316BFF;
+}
+
+.player-volume-range-style {
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    border: 2px solid #316BFF;
+}
+.player-volume-wrapper{
+    display: inline;
+}
+.player-volume-icon{
+    float: left;
+}
+#opened-player-play{
+    display: none;
+}
+.player-trace,
+.fa-step-forward,
+.fa-step-backward,
+.opened-player-control-btns{
+    cursor: pointer;
+}
+
+/* Podcasts Owl Carousel Images Shadow Effect */
+
+div.fx-podcasts-shadow-effect{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+div.owl-item.active.center div.fx-podcasts-shadow-effect{
+    display: none;
+}
+ul#fx-podcast-owl-carousel > div.owl-nav > button.owl-prev, ul#fx-podcast-owl-carousel > div.owl-nav > button.owl-next {
+    top: 175px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white
+}
+
+ul#fx-podcast-owl-carousel > div.owl-nav > button.owl-next {
+    right:72px;
+}
+ul#fx-podcast-owl-carousel > div.owl-nav > button.owl-prev {
+    left:72px;
+}
+#fx-podcast-owl-carousel {
+    visibility: hidden;
+}
+

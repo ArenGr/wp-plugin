@@ -1,0 +1,123 @@
+.fx-modal-body {
+    height: 100%;
+    padding: 21px;
+}
+
+.fx-modal-heading-input-div-icon {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.fx-modal-heading-input-div-icon svg:hover{
+    fill: rgba(49, 107, 255, 0.5)
+}
+.fx-modal-heading-input-div-icon svg:active{
+    fill: rgba(49, 107, 255, 1)
+}
+.fx-modal-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fx-modal-heading-title {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 3px;
+    margin: 0;
+}
+
+.fx-modal-heading-input-div input {
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 35px;
+    color: #29344480;
+}
+
+.fx-modal-heading-mail {
+    margin-left: 3px;
+}
+
+.fx-modal-heading-mail-text {
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.fx-modal-heading-input-div {
+    border: 1px solid #29344480;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    border-radius: 6px;
+    height: 40px;
+}
+
+.fx-modal-heading-close-button,
+.fx-modal-heading-input-div-icon{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.fx-modal-heading-link {
+    margin-top: 24px;
+}
+
+.fx-modal-heading-link-input-part {
+    position: fixed;
+    margin-top: 24px;
+}
+
+.fx-modal-heading-link-input {
+    width: 230px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 8px 10px 8px 12px;
+    border: none;
+    outline: none;
+    background-color: #1626480D;
+    color: #162648B2;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.fx-modal-heading-link-input-part-button {
+    margin: 0;
+    width: 78px;
+    height: 40px;
+    margin-left: 12px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 4px;
+    border: none;
+    background-color: #316BFF;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.fx-modal-heading-link-input-part-button:hover{
+    background-color: rgba(49, 107, 255, 0.5);
+}
+.fx-modal-heading-link-input-part-button:active{
+    background-color: rgba(49, 107, 255, 1);
+}
+.fx-modal-heading-link-hr {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin: 0;
+}
